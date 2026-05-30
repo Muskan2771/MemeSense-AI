@@ -1,256 +1,80 @@
 # 🧠 MemeSense AI
 
-### AI-Powered Meme Understanding Platform
+## 🚀 AI-Powered Meme Understanding Platform
 
-MemeSense AI is an intelligent application that helps users understand internet memes by extracting text from images, analyzing meme meaning, detecting emotions, generating natural-language explanations, and converting them into audio narration.
+🌐 Live Demo: https://memesense-ai-qgrhfvc76nj8bsqipnu4gc.streamlit.app/
 
-Built using Computer Vision, OCR, Large Language Models (LLMs), Translation APIs, and Text-to-Speech technology.
+MemeSense AI is an intelligent AI application that understands internet memes by extracting text from images, analyzing meaning, detecting emotions, generating explanations, and converting them into audio narration.
+
+It combines **Computer Vision, OCR, Large Language Models (LLMs), NLP, Translation APIs, and Text-to-Speech** into a complete end-to-end AI pipeline.
 
 ---
 
-## 🚀 Features
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+![Home Page](assets/home.png)
+
+### 🔍 Meme Analysis Output
+![Analysis](assets/analysis.png)
+
+### 📊 History Page
+![History](assets/history.png)
+
+---
+
+## ✨ Features
 
 ### 📸 Meme Upload
-Upload meme images in JPG, JPEG, or PNG format.
+- Upload memes in JPG / JPEG / PNG format
 
 ### 🔍 OCR Text Extraction
-Extracts text from memes using EasyOCR.
+- Extracts text using **EasyOCR**
+- Handles noisy and stylized meme text
 
 ### 🧠 AI Meme Understanding
-Uses Google Gemini to understand the meme and explain its meaning.
+- Powered by **Google Gemini 2.5 Flash**
+- Understands meme context, humor, and intent
 
 ### 😊 Emotion Detection
-Identifies the primary emotion conveyed by the meme.
-
-Examples:
-- Happy
-- Sad
-- Excited
-- Angry
-- Relaxed
-- Confused
+- Happy 😊
+- Sad 😢
+- Angry 😠
+- Excited 🤩
+- Confused 😕
+- Relaxed 😌
 
 ### 💡 Meaning Generation
-Provides a short and concise explanation of the meme.
+- Converts meme text into short, clear explanations
 
 ### 🔊 Audio Narration
-Converts AI-generated explanations into speech using gTTS.
+- Converts explanation into speech using **gTTS**
 
 ### 🌍 Multi-Language Support
-Supports:
+- English 🇬🇧
+- Hindi 🇮🇳
+- Marathi 🇮🇳
 
-- English
-- Hindi
-- Marathi
-
-### 🗄 Analysis History
-Stores previous meme analyses using SQLite database.
+### 🗄 History Tracking
+- Stores past analyses using **SQLite**
 
 ---
 
-## 🏗 Project Architecture
+## 🏗 System Architecture
 
 ```text
-User Uploads Meme
-        │
-        ▼
-      OCR
-   (EasyOCR)
-        │
-        ▼
- Extracted Text
-        │
-        ▼
- Google Gemini
-        │
- ┌──────┼──────┐
- ▼      ▼      ▼
-Meaning Emotion Narration
-        │
-        ▼
- Translation
-        │
-        ▼
- Text-to-Speech
-        │
-        ▼
- Audio Output
-        │
-        ▼
- SQLite Storage
-```
-
----
-
-## 📁 Project Structure
-
-```text
-MemeSense-AI/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .env
-├── .gitignore
-│
-├── assets/
-│   ├── logo.png
-│   └── banner.png
-│
-├── data/
-│   ├── uploads/
-│   └── audio/
-│
-├── database/
-│   └── memes.db
-│
-├── services/
-│   ├── __init__.py
-│   ├── ocr_service.py
-│   ├── gemini_service.py
-│   ├── translation_service.py
-│   ├── speech_service.py
-│   └── db_service.py
-│
-├── pages/
-│   └── History.py
-│
-└── .streamlit/
-    └── config.toml
-```
-
----
-
-## 🛠 Tech Stack
-
-### Frontend
-- Streamlit
-
-### OCR
-- EasyOCR
-
-### AI Model
-- Google Gemini 2.5 Flash
-
-### Translation
-- Deep Translator
-
-### Speech Synthesis
-- gTTS
-
-### Database
-- SQLite
-
-### Programming Language
-- Python
-
----
-
-## ⚙ Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/MemeSense-AI.git
-
-cd MemeSense-AI
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Create Environment File
-
-Create `.env`
-
-```env
-GEMINI_API_KEY=YOUR_API_KEY
-```
-
-### Run Application
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 🎯 Example Workflow
-
-### Input Meme
-
-```text
-NO STRESS
-JUST VIBING
-```
-
-### Output
-
-#### Meaning
-
-```text
-Enjoying life without worrying too much.
-```
-
-#### Emotion
-
-```text
-Relaxed
-```
-
-#### Narration
-
-```text
-This meme expresses a carefree attitude.
-It jokes about ignoring stress and simply enjoying the moment.
-```
-
-#### Audio
-
-```text
-Generated MP3 narration available for playback and download.
-```
-
----
-
-## 💼 Resume Highlights
-
-- Developed an AI-powered meme understanding platform using OCR and Large Language Models.
-- Implemented text extraction using EasyOCR and meme reasoning using Google Gemini.
-- Built multilingual support with English, Hindi, and Marathi translations.
-- Integrated text-to-speech narration for improved accessibility.
-- Designed SQLite-based history tracking and analysis storage.
-- Deployed an end-to-end AI application using Streamlit.
-
----
-
-## 🔮 Future Improvements
-
-- Gemini Vision Integration
-- Visual Scene Understanding
-- Meme Template Detection
-- Browser Extension
-- Social Media Meme Analyzer
-- Real-Time Meme Explanation API
-- Mobile Application
-
----
-
-## 👩‍💻 Author
-
-**Muskan Shaikh**
-
-Aspiring Data Scientist | AI/ML Developer | Python Developer
-
-GitHub: https://github.com/Muskan2771
-
-LinkedIn: https://linkedin.com/in/musu-shaikh
-
----
-
-## ⭐ If you like this project
-
-Give it a star on GitHub and feel free to contribute.
+Image Upload
+    ↓
+EasyOCR (Text Extraction)
+    ↓
+Google Gemini LLM
+    ↓
+ ┌───────────────┬───────────────┬───────────────┐
+ │ Meaning       │ Emotion       │ Explanation   │
+ └───────────────┴───────────────┴───────────────┘
+    ↓
+Translation Layer
+    ↓
+Text-to-Speech (gTTS)
+    ↓
+Audio Output + SQLite Storage
