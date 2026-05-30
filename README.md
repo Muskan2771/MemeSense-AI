@@ -78,3 +78,37 @@ Translation Layer
 Text-to-Speech (gTTS)
     ↓
 Audio Output + SQLite Storage
+
+### Project Structure
+MemeSense-AI/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .env (not uploaded)
+├── .gitignore
+│
+├── assets/
+│   ├── home.png
+│   ├── analysis.png
+│   └── history.png
+│
+├── data/
+│   ├── uploads/
+│   └── audio/
+│
+├── database/
+│   └── memes.db
+│
+├── services/
+│   ├── ocr_service.py
+│   ├── gemini_service.py
+│   ├── translation_service.py
+│   ├── speech_service.py
+│   └── db_service.py
+│
+├── pages/
+│   └── History.py
+│
+└── .streamlit/
+    └── config.toml
