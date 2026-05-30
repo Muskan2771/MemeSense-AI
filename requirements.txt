@@ -1,0 +1,6 @@
+pip install streamlit
+pip install google-generativeai
+pip install easyocr
+pip install pillow
+pip install gtts
+pip install deep-translator
