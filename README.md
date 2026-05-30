@@ -78,7 +78,7 @@ Text-to-Speech (gTTS)
     ↓
 Audio Output + SQLite Storage
 
-## 📁 Project Structure
+📁 Project Structure
 
 
 MemeSense-AI/
@@ -116,7 +116,7 @@ MemeSense-AI/
 
 
 
-## 🛠 Tech Stack
+🛠 Tech Stack
 
 - Frontend: Streamlit  
 - OCR: EasyOCR  
@@ -128,9 +128,9 @@ MemeSense-AI/
 
 ---
 
-## ⚙️ Installation
+ ⚙️ Installation
 
-### Clone Repository
+ Clone Repository
 ```bash
 git clone https://github.com/Muskan2771/MemeSense-AI.git
 cd MemeSense-AI
