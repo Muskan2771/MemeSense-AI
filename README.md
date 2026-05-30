@@ -79,6 +79,7 @@ Text-to-Speech (gTTS)
     ↓
 Audio Output + SQLite Storage
 
+---
 ## 📁 Project Structure
 
 
