@@ -58,7 +58,6 @@ It combines **Computer Vision, OCR, Large Language Models (LLMs), NLP, Translati
 ### 🗄 History Tracking
 - Stores past analyses using **SQLite**
 
----
 
 ## 🏗 System Architecture
 
@@ -79,7 +78,6 @@ Text-to-Speech (gTTS)
     ↓
 Audio Output + SQLite Storage
 
----
 ## 📁 Project Structure
 
 
@@ -117,7 +115,6 @@ MemeSense-AI/
 └── config.toml
 
 
----
 
 ## 🛠 Tech Stack
 
