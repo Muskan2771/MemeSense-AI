@@ -1,0 +1,15 @@
+# Environment
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database (optional but recommended)
+database/*.db
+
+# OS files
+.DS_Store
+
+# Streamlit cache
+.streamlit/
