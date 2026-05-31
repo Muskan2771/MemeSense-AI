@@ -45,10 +45,15 @@ with st.sidebar:
 ### Features
 
 ✅ OCR Text Extraction
+
 ✅ Meme Understanding
+
 ✅ Emotion Detection
+
 ✅ Audio Narration
+
 ✅ Multi-language Support
+
 ✅ History Tracking
 """)
 
